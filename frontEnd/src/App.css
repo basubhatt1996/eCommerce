@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding-right: 1rem;
+  text-align: left;
+  padding-right:2rem;
+  padding-top: 1rem;
+}
+.footer{
+  display: block;
+  position:absolute;
+  bottom:0;
+  text-align: center;
+}
+.nav-ul{
+  position:absolute;
+  text-align: left;
+  top:0;
+  width: auto;
+  margin-left: -10%;
+ 
+}
+.inputBox{
+  display: block;
+  align-items: center;
+  margin: 5px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid gray;
+  font-size: large;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.signUp{
+  position:absolute;
+  text-align: right;
+  top:0;
+  width: auto;
+  margin-left: 45%;
+}
+.signUp li{
+  display: inline-block;
+  padding: 1rem; 
+}
+.invalidInput{
+  font-size: 1rem;
+ color: red;
+}
+.table li{
+  display: inline-block;
+  border:3px solid wheat;
+  padding: 5px;
+  width: 150px;
+}
+.table{
+  margin: 0;
+}
+.deleteButton{
+  border-radius: 8px;
+  width: 50%;
+  border: 1px solid transparent;
+  padding: 0.3em;
+  font-size: 0.8em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2fbdd7;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.searchInputBox{
+  display: block;
+  align-items: center;
+  margin-left: 40%;
+  margin-bottom: 5px;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid gray;
+  font-size: large;
+  font-weight: 500;
+  border-radius: 10px;
+}
